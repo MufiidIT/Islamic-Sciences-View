@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b2735;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+}
+
+h1{
+    text-decoration: underline black solid 16px;
+    margin-bottom: 29px;
+}
+
+main{
+    text-align: center;
+}
+
+section{
+    background-color: black;
+    color: grey;
+    margin: 10px auto;
+    border-color: rgb(92, 98, 104);
+    border-style: solid;
+    border-width: 2px;
+    transition: color, 0.25s border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    width: 450px;
+}
+
+section:hover{
+    border-color: #f1ff5c;
+    transform: translateY(-0.25em);
+    box-shadow:0 0.5em 0.5em -0.4em #f1ff5c;
+    cursor: pointer;
+    color: white;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
